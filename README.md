@@ -25,21 +25,6 @@ Devuelve un objeto JSON con los datos del personaje buscado: nombre, altura, pes
 
 ---
 
-## 🧩 Estructura del proyecto
-
-Proyecto/
-│
-├── index.html
-├── src/
-│ ├── css/
-│ │ └── style.css
-│ └── js/
-│ ├── app.js
-│ └── main.js
-└── README.md
-
----
-
 ## 💻 Descripción de archivos
 
 ### 🟡 index.html  

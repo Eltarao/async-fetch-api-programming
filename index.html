@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Wars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/star-wars" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+
+<body class="bg-dark text-white">
+
+  <div class="overlay"></div>
+
+
+  <div class="overlay"></div>
+
+  <div class="container text-center py-5">
+    <h1 class="mb-4 title">Star Wars Characters</h1>
+    <p class="text-secondary mb-4">Descubre sobre personajes de star-wars.</p>
+
+    <div class="input-group w-50 m-auto mb-3">
+      <input id="nombre" type="text" class="form-control text-center" placeholder="Ejemplo: Luke Skywalker">
+    </div>
+
+    <div class="d-flex justify-content-center gap-3 mb-4">
+      <button id="btn-buscar" class="btn btn-outline-warning px-4">Buscar personaje</button>
+    </div>
+
+    <div id="resultado" class="fs-5 mt-5"></div>
+
+  <p class="text-secondary mb-2">Personajes populares:</p>
+    <div id="lista-personajes" class="d-flex flex-wrap justify-content-center gap-2 mb-5">
+      <span class="badge bg-secondary p-2">Luke Skywalker</span>
+      <span class="badge bg-secondary p-2">Leia Organa</span>
+      <span class="badge bg-secondary p-2">Darth Vader</span>
+      <span class="badge bg-secondary p-2">Han Solo</span>
+      <span class="badge bg-secondary p-2">Yoda</span>
+      <span class="badge bg-secondary p-2">Obi-Wan Kenobi</span>
+      <span class="badge bg-secondary p-2">Chewbacca</span>
+      <span class="badge bg-secondary p-2">R2-D2</span>
+      <span class="badge bg-secondary p-2">Ahsoka Tano</span>
+      <span class="badge bg-secondary p-2">Palpatine</span>
+    </div>
+
+  </div>
+
+  <script type="module" src="src/js/main.js"></script>
+</body>
+</html>

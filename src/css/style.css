@@ -1,0 +1,53 @@
+body {
+  color: #eaeaea;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.title {
+  font-family: 'Star Wars', sans-serif;
+  color: #ffe81f;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.03) 0%, transparent 70%);
+  z-index: -1;
+}
+
+.btn-outline-warning
+{
+  font-weight: 500;
+  border-width: 2px;
+}
+
+.btn-outline-warning:hover {
+  background-color: #ffe81f;
+  color: #000;
+}
+
+input.form-control {
+  border: 1px solid #333;
+  color: #000000;
+}
+
+input.form-control:focus {
+  background-color: #ffffff69;
+  border-color: #ffe81f;
+  box-shadow: none;
+}
+
+.card p {
+  text-align: justify;
+  text-align-last: left;
+  margin-bottom: 0.5rem;
+}
+
+.text-secondary.mb-2 {
+  margin-top: 2%;
+}
